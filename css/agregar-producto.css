@@ -1,0 +1,96 @@
+:root{
+    --fuente-principal: 'Montserrat',sans-serif;
+    --compra_ahora : #F6DE86;
+    --black: #000000;
+    --opaci:#262705;
+    --white: #FFFFFF;
+    --recuerdame: #FDEFd6;
+    --fondo-inicio:#b37c4c;
+    --fondo-inicio-light:#e5a56b;    
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+
+}
+body{
+    background-color: var(--recuerdame);
+    font-family: var(--fuente-principal);
+}
+
+.formulario-container{
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.formulario-titulo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: var(--lg);
+    color: var(--fondo-inicio);
+
+}
+
+
+.formulario-campo{
+    display:flex;
+    flex-direction: column;
+    width: 70%;        
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: var(--sm);
+}
+
+.formulario-campo label{
+    font-size: 16px;    
+    color: var(--fondo-inicio);
+}
+
+.formulario-campo input{
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: var(--recuerdame);    
+}
+
+
+.formulario-campo input::placeholder{
+    font-size: 8px;    
+    opacity: 0.8;    
+}
+
+.formulario-botones{
+    display: flex;    
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: var(--recuerdame); 
+    cursor: pointer;
+}
+
+.enviar{
+    background: var(--fondo-inicio);
+}
+.limpiar{
+    background-color: var(--fondo-inicio-light);
+}

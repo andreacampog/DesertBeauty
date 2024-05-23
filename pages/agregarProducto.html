@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/agregar-producto.css">
+</head>
+<body>
+    <section>
+        <form class="formulario-container" data-formulario >    
+                    
+            <h1 class="formulario-titulo" >Agregar Producto: </h1>            
+            
+            
+            <div class="formulario-campo">    
+                <label for="precio">Precio del producto</label>                            
+                <input type="text" name="precio" data-precio  required id="precio"
+                 placeholder="En este campo pon el precio del articulo sin el simbolo $">
+            </div>
+
+               
+            <div class="formulario-campo"> 
+                <label for="nombre">Nombre del producto</label>                            
+                <input type="text" name="nombre" data-nombre  required id="nombre"
+                 placeholder="En este campo pon el nombre del articulo">
+            </div>
+
+            <div class="formulario-campo"> 
+                <label for="descripcion">Descripcion del producto</label>                            
+                <input type="text" name="descripcion" data-descripcion  required id="descripcion"
+                 placeholder="En este campo pon el nombre del articulo">
+            </div>
+
+            <div class="formulario-campo"> 
+                <label for="imagen">URL del producto</label>                            
+                <input type="text" name="imagen" data-imagen  required id="imagen"
+                 placeholder="En este campo inserta la URL de la imagen">
+            </div>                               
+               
+                
+             <div class="formulario-botones" >                
+                <button type="button"  class="limpiar btn" >Limpiar</button>
+                <button type="submit" class="enviar btn">Enviar</button>
+            </div>
+                
+            </div>
+        </form>
+        
+    </section>
+    <script src="../js/crearProducto.js" type="module" ></script>
+    
+</body>
+</html>

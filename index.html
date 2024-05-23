@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    <title>Dessert Beauty</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">    
+</head>
+<body> 
+    <header>    
+        <div class="header__title">
+            <h1>DESERT GLOW</h1>
+            <p>Cosmetics</p>
+        </div>                 
+        <nav class="nav" >                         
+            <img class="hamburguesa-img" src="./assets/icons/menu-blanco.png" >
+                <ul class="lista-mobile"> 
+                    <li class="lista"><a href="#catalogo" >Catalogo</a></li>
+                    <li class="lista"><a>Nosotros</a></li>               
+                    <li class="lista"><a>Blog</a></li>
+                    <li class="lista"><a>Contacto</a></li>
+                </ul>   
+            <ul class="lista-desktop" >
+                <a href="#catalogo"><li class="desktop-item">Catalogo</li></a>
+                <li class="desktop-item">Nosotros</li>
+                <li class="desktop-item">Blog</li>
+                <li class="desktop-item">Contacto</li>
+            </ul>
+
+            <ul class="lista-iconos">
+                <span class="material-symbols-outlined lista-iconos__item">search</span>
+                <span class="material-symbols-outlined lista-iconos__item">person</span>
+                <span class="material-symbols-outlined lista-iconos__item">favorite</span>
+                <span class="material-symbols-outlined lista-iconos__item">local_mall</span>               
+                <span class="material-symbols-outlined lista-iconos__item">data_array</span>
+            </ul>
+        </nav>             
+    </header>       
+    <main>
+        <section class="principal" >
+            <div class="principal-container" >
+                <div class="mensaje-slogan-container" >
+                    <p class="slogan-parrafo">ELEVA TU BELLEZA</p>
+                    <p class="slogan-parrafo">MAS ALLA DE LOS LIMITES</p>
+                </div>
+    
+                <div class="mensaje-desert-container">
+                    <h1 class="desert-titulo" >DESERT</h1>
+                </div>
+    
+                <div class="mensaje-glow-container" >  
+                    <div class="mensaje-titulo-container"  >
+                        <h1  class="glow-titulo" >GLOW</h1>
+                    </div>                  
+                </div>   
+    
+                <div class="mensaje-centro-container" >
+                    <h1 class="centro-titulo" >COSMETICS</h1>
+                </div>               
+                <a href="#catalogo"  class="call-to-action" >     
+                    <div class="call-to-action-container">              
+                        <div class="circulo-animado"></div>    
+                        <span class="material-symbols-outlined flecha">east</span>
+                        <h1 class="action-title" >Compra ahora</h1>                       
+                    </div>                 
+                </a>  
+            </div>              
+        </section>  
+
+        <section class="catalogo">  
+            <div class="catalogo-container" >
+                <h1 id="catalogo" class="catalog-title" >CATALOGO DE PRODUCTOS</h1>                  
+                
+                <div class="busqueda">                    
+                    <input type="search" class="filtro-catalogo" placeholder="Buscar" data-busqueda  id="buscar" ></label>                
+                    <button class="buscar-boton" data-boton-busqueda></button>
+                </div>     
+
+                <div>
+                    <p id="mensaje-lista-vacia" ></p>
+                </div>
+                <div class="cards-container" data-lista >                    
+                </div>
+            </div>            
+        </section>
+
+        <section class="hero">
+            <img class="hero-container"></img>
+        </section>
+
+        <section class="banners" >
+            <div class="banners-container" >
+                <div class="left">            
+                    <div class="container-left">    
+                        <div class="we">WE</div>     
+
+                        <div class="item">
+                            <img class="item_1"  src="https://images.pexels.com/photos/6543552/pexels-photo-6543552.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                        </div>
+                        <div class="item ">
+                            <img  class="item_2" src="https://images.pexels.com/photos/3618606/pexels-photo-3618606.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                        </div>
+                        <div class="item">
+                            <img  class="item_3"  src="https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+
+                        </div>      
+                        <div class="love">LOVE</div>               
+                    </div>
+                </div>
+        
+                <div class="right">
+                    <div class="container-right">
+                        <img class="item_4" src="https://images.pexels.com/photos/8157596/pexels-photo-8157596.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+
+ 
+                        <img class="item_5" src="https://images.pexels.com/photos/6151982/pexels-photo-6151982.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+
+                        <img class="item_6" src="https://images.pexels.com/photos/17464940/pexels-photo-17464940/free-photo-of-ana-camara.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+
+                        <img class="item_7" src="https://images.pexels.com/photos/12572247/pexels-photo-12572247.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+     
+                        <img  class="item_8" src="https://images.pexels.com/photos/286951/pexels-photo-286951.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+
+                    </div>            
+                    <div class="desert">DESERT</div> 
+                </div>           
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container" >
+            <h2>Desarrollado por Andrea Campo</h2>
+            <p>2024</p>
+            <img  class="logo-footer" alt="">   
+        </div>           
+    </footer>
+    
+    <script src="./js/conexionAPI.js" type="module" ></script>
+    <script src="./js/mostrarProductos.js" type="module" ></script>
+    <script src="./js/buscarProducto.js" type="module" ></script>
+</body>
+
+
+</html>

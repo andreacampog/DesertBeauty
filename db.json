@@ -1,0 +1,75 @@
+{
+  "productos": [
+    {
+      "id": "7",
+      "precio": " 350",
+      "nombre": "Kit antienvejecimiento",
+      "descripcion": "Rutina de 5 pasos",
+      "imagen": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "8",
+      "precio": " 169",
+      "nombre": "Acido Hialurónico",
+      "descripcion": "Refresca tu expresión",
+      "imagen": "https://images.pexels.com/photos/19724463/pexels-photo-19724463/free-photo-of-flores-piedras-fresco-cuidado-de-la-salud.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "9",
+      "precio": " 169",
+      "nombre": "Acido Hialurónico",
+      "descripcion": "Refresca tu expresión",
+      "imagen": "https://images.pexels.com/photos/14920158/pexels-photo-14920158.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "10",
+      "precio": " 169",
+      "nombre": "Reparador Labial",
+      "descripcion": "Acido Hialuronico 4grs",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/163863-300-300?v=638013074752600000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "11",
+      "precio": " 10",
+      "nombre": "Espuma limpiadora",
+      "descripcion": "TGelcin 190gr",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/156810-300-300?v=638009372275800000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "12",
+      "precio": " 10",
+      "nombre": "Termal Uriage 40grs",
+      "descripcion": "Crema hidratante",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/158327-300-300?v=638014907706170000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "13",
+      "precio": " 10",
+      "nombre": "Synderm piel 280ml",
+      "descripcion": "Limpiador facial para piel grasa",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/156790-300-300?v=638009354408970000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "14",
+      "precio": " 10",
+      "nombre": "Bioderma",
+      "descripcion": "Sensibio gel moussant 500ml",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/164519-300-300?v=638185840301870000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "15",
+      "precio": " 10",
+      "nombre": "Rilastil",
+      "descripcion": "Acnestil Gel Limpiador 400ml",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/164846-300-300?v=638167580747300000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "16",
+      "precio": " 10",
+      "nombre": "Sesderma",
+      "descripcion": "Desmaquillante sensyses",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/156261-300-300?v=638022528669300000&width=300&height=300&aspect=true"
+    }
+    
+  ]
+}
