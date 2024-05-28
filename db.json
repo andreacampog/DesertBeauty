@@ -69,7 +69,48 @@
       "nombre": "Sesderma",
       "descripcion": "Desmaquillante sensyses",
       "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/156261-300-300?v=638022528669300000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "896a",
+      "precio": "1200",
+      "nombre": "Tesitura",
+      "descripcion": "Crema hidratante facial",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/158381-300-300?v=637989630763030000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "f085",
+      "precio": "50",
+      "nombre": "Tesitura probioticos",
+      "descripcion": "sobres ",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/166892-800-auto?v=638410943175300000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": "7725",
+      "precio": "90",
+      "nombre": "Fotoprotector",
+      "descripcion": "isdin",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/155810-300-300?v=638012867405700000&width=300&height=300&aspect=true"
+    },
+    {
+      "id": "165e",
+      "precio": "90",
+      "nombre": "hydraskin",
+      "descripcion": "hidratante facial antiedad",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/165717/2214.jpg?v=638310107252870000"
+    },
+    {
+      "id": "a5ff",
+      "precio": "1200",
+      "nombre": "retinox",
+      "descripcion": "hidratante facial",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/165292-1200-auto?v=638194123180470000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "db0b",
+      "precio": "1000",
+      "nombre": "serum ",
+      "descripcion": "BIFASICO",
+      "imagen": "https://bellapiel.vtexassets.com/arquivos/ids/165549-1200-auto?v=638266936965370000&width=1200&height=auto&aspect=true"
     }
-    
   ]
 }

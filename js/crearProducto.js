@@ -11,8 +11,8 @@ async function crearProducto(evento){
     const imagen = document.querySelector('[data-imagen]').value;    
 
     try{
-        await conexionAPI.enviarProducto(precio,nombre,descripcion,imagen);
-        alert('Envio concluido');
+        await conexionAPI.enviarProducto(precio,nombre,descripcion,imagen);     
+        window.location.href = '../pages/envio-concluido.html';
     }catch(e){
         alert(e);
     }
