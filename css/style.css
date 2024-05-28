@@ -62,6 +62,7 @@ header{
     height: 30px;
     margin: 5px;
     cursor: pointer;    
+    justify-self: left;
 }
 
 .lista-desktop{
@@ -314,7 +315,6 @@ header{
     font-size: var(--lg);    
 }
 
-
 .busqueda{
     width: 60%;
     display: flex;
@@ -333,6 +333,26 @@ header{
     height: 30px;
     background-color: var(--recuerdame);
     border: 1px solid var(--recuerdame);
+}
+
+.agregar-producto{
+    padding: 8px;
+    font-size: 14px;
+    color: var(--fondo-inicio-light);
+    text-align: left;
+    border: 1px solid var(--fondo-inicio);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.agregar-producto:hover{
+    background-color: var(--fondo-inicio-light);
+    color: var(--white);
+    border: none;
+    
 }
 
 .mensaje-busqueda{
